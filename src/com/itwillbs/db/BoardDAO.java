@@ -145,7 +145,4 @@ public class BoardDAO {
 	// 글쓰기 메서드 boardWrite() 끝///////////////////////////////////////////////////
 	
 	
-	
-	
-	
 }// BoardDAO class
