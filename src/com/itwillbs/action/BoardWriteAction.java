@@ -38,7 +38,7 @@ public class BoardWriteAction implements Action {
 		// BoardDAO 객체 생성
 		BoardDAO dao = new BoardDAO();
 		
-		// DB에 글 정보 저장
+		// DB에 글 정보 저장 -- boardWrite 메서드 호출
 		dao.boardWrite(dto);
 		
 		// 4. 페이지 이동 정보 저장 + forward 리턴 .... 여기서 이동하는 게 XXX !! 이동은 컨트롤러에서
